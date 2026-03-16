@@ -20,13 +20,13 @@ Structure and run multi-hour Codex work with four control-plane documents: `prom
 Install the full collection from GitHub:
 
 ```bash
-npx skills add pdionne/agent-skills
+ npx skills add phildionne/agent-skills
 ```
 
 Install a single skill from the repository:
 
 ```bash
-npx skills add pdionne/agent-skills --skill long-horizon-codex
+ npx skills add phildionne/agent-skills --skill long-horizon-codex
 ```
 
 ## Repository Structure
@@ -43,7 +43,7 @@ npx skills add pdionne/agent-skills --skill long-horizon-codex
 Clone the repository and edit skills in place:
 
 ```bash
-git clone https://github.com/pdionne/agent-skills.git
+ git clone https://github.com/phildionne/agent-skills.git
 cd agent-skills
 ```
 
