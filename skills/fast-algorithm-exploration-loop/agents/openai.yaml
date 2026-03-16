@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fast Algorithm Exploration Loop"
+  short_description: "Benchmark-driven algorithm exploration for ambiguous technical problems"
+  default_prompt: "Use small algorithm spikes, benchmarks, fuzzing, visual diagnostics, and spec refinement to converge on the right approach. If another planning skill is also active, adapt this loop to that system without duplicating it."

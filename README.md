@@ -2,9 +2,18 @@
 
 A collection of distributable skills for AI coding agents.
 
-This repository is structured for compatibility with the `skills` CLI and follows the standard `skills/<skill-name>/SKILL.md` layout used by installable skill collections.
+This repository is structured for compatibility with the [skills](https://github.com/vercel-labs/skills) CLI and follows the [Agent Skills](https://agentskills.io/) standard.
 
 ## Available Skills
+
+### fast-algorithm-exploration-loop
+
+Benchmark-driven workflow for converging on algorithms through small implementation spikes, fuzzing, visual diagnostics, and spec refinement.
+
+**Use when:**
+- exploring algorithms, numerical methods, geometry, graphs, optimization, or data structures
+- multiple approaches are plausible and need empirical comparison
+- success depends on measurable properties such as correctness, error, runtime, memory, or robustness
 
 ### long-horizon-codex
 
@@ -14,6 +23,8 @@ Structure and run multi-hour Codex work with four control-plane documents: `prom
 - Scaffolding a repo for a long-running implementation effort
 - Keeping multi-session work coherent across context compaction or handoff
 - Creating durable execution plans and validation checkpoints
+
+Inspired by [Run long horizon tasks with Codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex)
 
 ## Installation
 
@@ -37,19 +48,3 @@ Install a single skill from the repository:
 - `skills/<skill-name>/references/` contains load-on-demand documentation
 - `skills/<skill-name>/assets/` contains templates and other output resources
 - `skills/<skill-name>.zip` is the packaged distribution artifact
-
-## Development
-
-Clone the repository and edit skills in place:
-
-```bash
- git clone https://github.com/phildionne/agent-skills.git
-cd agent-skills
-```
-
-When a packaged skill changes, rebuild its sibling zip from the `skills/` directory:
-
-```bash
-cd skills
-zip -r long-horizon-codex.zip long-horizon-codex/
-```
