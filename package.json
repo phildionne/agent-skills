@@ -6,7 +6,8 @@
     "bootstrap": "tsx scripts/bootstrap-agent-skills.ts",
     "bootstrap:dry-run": "tsx scripts/bootstrap-agent-skills.ts --dry-run",
     "check": "tsc --noEmit",
-    "doctor": "tsx scripts/doctor-agent-setup.ts"
+    "doctor": "tsx scripts/doctor-agent-setup.ts",
+    "skills:update": "tsx scripts/update-agent-skills.ts"
   },
   "dependencies": {
     "smol-toml": "^1.6.1"

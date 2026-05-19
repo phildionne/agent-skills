@@ -30,6 +30,12 @@ Verify the local agent setup:
 pnpm run doctor
 ```
 
+Update installed global skills:
+
+```bash
+pnpm run skills:update
+```
+
 ## Installation
 
 Install the full collection from GitHub:
@@ -66,6 +72,7 @@ Packaged zip files are optional distribution artifacts. Regenerate `skills/<skil
 - `agent-manifest.toml` lists the desired external skill sources and expected Codex MCP/plugin inventory.
 - `scripts/bootstrap-agent-skills.ts` installs manifest-managed skills.
 - `scripts/doctor-agent-setup.ts` reports drift in installed skills and documented Codex setup.
+- `scripts/update-agent-skills.ts` updates all global skills and refreshes well-known skills that the `skills` CLI cannot auto-update.
 - `docs/codex-setup.md` documents Codex MCPs/plugins without storing auth or rewriting `~/.codex/config.toml`.
 
 Use `pnpm run doctor` instead of `pnpm doctor`; `pnpm doctor` is a pnpm builtin command.
