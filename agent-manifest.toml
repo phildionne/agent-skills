@@ -1,0 +1,116 @@
+[custom]
+skills = []
+
+[external_sources."addyosmani/web-quality-skills"]
+skills = ["accessibility", "best-practices", "core-web-vitals", "performance", "seo", "web-quality-audit"]
+
+[external_sources."better-auth/skills"]
+skills = ["better-auth-best-practices", "better-auth-security-best-practices", "email-and-password-best-practices"]
+
+[external_sources."checkly/checkly-cli"]
+skills = ["checkly"]
+
+[external_sources."cli.sentry.dev"]
+skills = ["sentry-cli"]
+
+[external_sources."coreyhaines31/marketingskills"]
+skills = ["ai-seo", "analytics-tracking", "seo-audit"]
+
+[external_sources."evolsb/claude-legal-skill"]
+skills = ["contract-review"]
+
+[external_sources."getsentry/sentry-agent-skills"]
+skills = ["sentry-fix-issues", "sentry-nextjs-sdk", "sentry-pr-code-review", "sentry-react-sdk"]
+
+[external_sources."googleworkspace/cli"]
+skills = ["gws-calendar", "gws-calendar-insert", "gws-docs", "gws-docs-write", "gws-drive", "gws-drive-upload", "gws-gmail", "gws-gmail-reply", "gws-gmail-send", "gws-sheets", "gws-sheets-append", "gws-sheets-read"]
+
+[external_sources."mapbox/mapbox-agent-skills"]
+skills = ["mapbox-cartography", "mapbox-style-patterns", "mapbox-style-quality", "mapbox-token-security", "mapbox-web-integration-patterns", "mapbox-web-performance-patterns"]
+
+[external_sources."mattpocock/skills"]
+skills = ["grill-me", "improve-codebase-architecture", "zoom-out"]
+
+[external_sources."neondatabase/agent-skills"]
+skills = ["neon-postgres"]
+
+[external_sources."railwayapp/railway-skills"]
+skills = ["use-railway"]
+
+[external_sources."shadcn/ui"]
+skills = ["shadcn"]
+
+[external_sources."vercel-labs/agent-browser"]
+skills = ["agent-browser", "dogfood"]
+
+[external_sources."vercel-labs/agent-skills"]
+skills = ["vercel-composition-patterns", "vercel-react-best-practices"]
+
+[external_sources."vercel-labs/next-skills"]
+skills = ["next-best-practices"]
+
+[codex.mcp_servers."chrome-devtools"]
+enabled = true
+kind = "command"
+
+[codex.mcp_servers."context7"]
+enabled = true
+kind = "command"
+
+[codex.mcp_servers."github"]
+enabled = false
+kind = "url"
+auth = "local"
+
+[codex.mcp_servers."mapbox"]
+enabled = false
+kind = "command"
+auth = "local"
+
+[codex.mcp_servers."next-devtools"]
+enabled = true
+kind = "command"
+
+[codex.mcp_servers."playwright"]
+enabled = true
+kind = "command"
+
+[codex.mcp_servers."shadcn"]
+enabled = true
+kind = "command"
+
+[codex.plugins."browser@openai-bundled"]
+enabled = true
+
+[codex.plugins."chrome@openai-bundled"]
+enabled = true
+
+[codex.plugins."codex-security@openai-curated"]
+enabled = true
+
+[codex.plugins."computer-use@openai-bundled"]
+enabled = true
+
+[codex.plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[codex.plugins."github@openai-curated"]
+enabled = true
+
+[codex.plugins."google-drive@openai-curated"]
+enabled = true
+
+[codex.plugins."neon-postgres@openai-curated"]
+enabled = true
+
+[codex.plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[codex.plugins."sentry@openai-curated"]
+enabled = true
+
+[codex.plugins."slack@openai-curated"]
+enabled = true
+
+[codex.plugins."spreadsheets@openai-primary-runtime"]
+enabled = true

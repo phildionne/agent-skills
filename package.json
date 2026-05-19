@@ -1,0 +1,19 @@
+{
+  "name": "agent-skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bootstrap": "tsx scripts/bootstrap-agent-skills.ts",
+    "bootstrap:dry-run": "tsx scripts/bootstrap-agent-skills.ts --dry-run",
+    "check": "tsc --noEmit",
+    "doctor": "tsx scripts/doctor-agent-setup.ts"
+  },
+  "dependencies": {
+    "smol-toml": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
