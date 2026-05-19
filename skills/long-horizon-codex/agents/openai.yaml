@@ -1,4 +1,0 @@
-interface:
-  display_name: 'Long Horizon Codex'
-  short_description: 'Structure and run multi-hour Codex work'
-  default_prompt: 'Use $long-horizon-codex to structure and run this multi-hour task with prompt.md, plans.md, implement.md, and documentation.md.'
